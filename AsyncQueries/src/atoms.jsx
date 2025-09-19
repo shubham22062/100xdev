@@ -13,7 +13,7 @@ export const notification = ({
 
 
 export const totalNotificationSelector = selector({
-    key: "totalNotificaartionSelector",
+    key: "totalNotificationSelector",
     get: ({ get }) => {
         const allNotifications = get(notifications);
         return allNotifications.network+
